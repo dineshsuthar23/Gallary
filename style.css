@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6dacc9;
+}
+
+.gallary {
+  font-size: 70px;
+  text-align: center;
+}
+.log{
+  text-align: right;
+}
+
+.logo {
+  top: 15px;
+  right: 15px;
+  width: 50px;
+  position: fixed;
+  font-size: 50px;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background-color: #385a69;
+}
+
+.image-section {
+  margin: 4%;
+  text-align: center;
+}
+
+.image {
+  height: 336px;
+  text-align: center;
+}
+
+.media {
+  margin: 0.5%;
+  height: 200px;
+  width: 280px;
+  border-radius: 10%;
+  background-color: #385a69;
+  transition-duration: 1s;
+}
+
+.media:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+
+/* Icon position */
+.fa-angles-up {
+  bottom: 17px;
+  right: 12px;
+}
+
+header .fa-grip-lines {
+  top: 20px;
+  left: 20px;
+}
+
+/* common in icons */
+.pos {
+  position: fixed;
+  color: #000000;
+  padding: 8px 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: #385a69;
+}
+
+/* ---------------- */
+.form-container .fa-grip-lines {
+  top: 20px;
+  left: 20px;
+  margin: 10px;
+  color: #000000;
+  padding: 8px 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: #6dacc9;
+}
+
+.popup {
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: none;
+  position: fixed;
+}
+
+.form-container {
+  padding: 10px;
+  max-width: 170px;
+  background-color: #385a69;
+}
+
+.btn {
+  border: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+  background-color: #385a69;
+}
+
+.btn:hover {
+  background-color: #6dacc9;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary/Images</title>
+    <link rel="icon" href="media/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="gallary" id="gallary"><b>𝓖𝓪𝓵𝓵𝓮𝓻𝔂</b></p>
+        </div>
+        <div class="log">
+            <img class="logo" src="media/logo.jpg" alt="Logo">
+        </div>
+        <hr>
+        <h1 class="gallary">Images</h1>
+        <a role="button" onclick="openForm()"><i class="fa-solid fa-grip-lines fa-2x pos"></i></a>
+    </header>
+    <a href="#gallary"><i class="fa-solid fa-angles-up fa-2x pos"></i></a>
+    <div class="image-section">
+        <div id="demo" class="image">
+            <!-- image is inserted from image.js -->
+        </div>
+        <a href="media/logo.jpg"></a>
+    </div>
+    <div class="popup" id="popup">
+        <div class="form-container">
+            <a role="button" onclick="closeForm()"><i class="fa-solid fa-grip-lines fa-2x"></i></a>
+            <h1>Categories</h1>
+            <a href="index.html"><button type="button" class="btn image-btn">Image</button></a>
+            <a href="video.html"><button type="button" class="btn video-btn">Video</button></a>
+            <a href=""><button type="button" class="btn video-btn" style="color:red">GIF</button></a>
+            <a href=""><button type="button" class="btn video-btn" style="color:red">Stickers</button></a>
+        </div>
+    </div>
+    <script src="image.js"></script>
+</body>
+
+</html>
+
+<!-- read data from folder in js ? -->
